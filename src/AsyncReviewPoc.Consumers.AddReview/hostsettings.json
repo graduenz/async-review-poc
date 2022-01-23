@@ -1,0 +1,6 @@
+﻿{
+  "ConnectionStrings": {
+    "MongoDB": "mongodb://root:example@localhost:27017",
+    "RabbitMQ": "amqp://localhost"
+  }
+}
