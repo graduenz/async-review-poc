@@ -47,7 +47,7 @@ dotnet run
 
 ## Make a HTTP request to create a company
 curl --location --request POST 'https://localhost:7237/Company' \
---header 'Content-Type: text/plain' \
+--header 'Content-Type: application/json' \
 --data-raw '{
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "name": "Acme Corporation",
